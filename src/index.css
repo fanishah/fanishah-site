@@ -1,0 +1,33 @@
+html {
+  background: rgb(17, 24, 39);
+  background: linear-gradient(
+    115deg,
+    rgba(17, 24, 39, 1) 0%,
+    rgba(31, 41, 55, 1) 70%
+  );
+  height: 100vh;
+  color: #fff;
+}
+#root {
+  background: rgb(17, 24, 39);
+  background: linear-gradient(
+    115deg,
+    rgba(17, 24, 39, 1) 0%,
+    rgba(31, 41, 55, 1) 70%
+  );
+  font-family: Vazirmatn, sans-serif;
+}
+.portfolio:hover > div > div {
+  display: flex;
+  opacity: 1;
+}
+.portfolio:hover > a > div > div {
+  display: flex;
+  opacity: 1;
+}
+.portfolio:hover {
+  z-index: 1;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
