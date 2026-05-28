@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "estedad";
+  src: /* IE6-IE8 */
+    url("./fonts/estedad.woff2") format("woff2"),
+    /* Pretty Modern Browsers */ url("./fonts/estedad.ttf") format("truetype");
+}
+
 html {
   background: rgb(17, 24, 39);
   background: linear-gradient(
@@ -15,7 +22,7 @@ html {
     rgba(17, 24, 39, 1) 0%,
     rgba(31, 41, 55, 1) 70%
   );
-  font-family: Vazirmatn, sans-serif;
+  font-family: "estedad", sans-serif;
 }
 .portfolio:hover > div > div {
   display: flex;

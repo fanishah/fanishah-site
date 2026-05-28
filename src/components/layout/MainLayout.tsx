@@ -4,7 +4,7 @@ import Sidebar from "../Sidebar";
 
 export default function MainLayout(): JSX.Element {
   return (
-    <div className="w-full xl:w-9/12 mx-auto flex flex-wrap pt-40 pb-10">
+    <div className="w-full lg:w-10/12 mx-auto flex flex-wrap pt-40 pb-10">
       <div className="w-full md:w-8/12 xl:w-9/12 order-last md:order-none space-y-7 px-5">
         <Menu />
         <Outlet />

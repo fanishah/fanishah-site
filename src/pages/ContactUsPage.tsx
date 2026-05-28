@@ -28,7 +28,7 @@ export default function ContactUsPage() {
           </div>
           <div className="flex w-full md:w-6/12 justify-start items-center space-x-2">
             <AiFillInstagram size="2rem" />
-            <p className="text-lg mt-1.5">fanishahw</p>
+            <p className="text-lg mt-1.5">fattah.dev</p>
           </div>
           <div className="flex w-full md:w-6/12 justify-start items-center space-x-2">
             <MdEmail size="2rem" />

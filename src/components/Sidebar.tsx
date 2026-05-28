@@ -1,6 +1,7 @@
 import { FaLinkedinIn, FaGithub, FaDiscord, FaTelegram } from "react-icons/fa";
 import { BsFillCalendar2DateFill, BsPhoneFill } from "react-icons/bs";
 import { HiLocationMarker } from "react-icons/hi";
+import { AiFillInstagram } from "react-icons/ai";
 
 export default function Sidebar(): JSX.Element {
   return (
@@ -21,7 +22,7 @@ export default function Sidebar(): JSX.Element {
           <div className="flex justify-center my-5 flex-wrap">
             <a
               className="ml-2 text-white bg-gray-800 pt-2.5 pb-2 px-2.5 rounded-lg bg-gradient-to-r hover:from-[#FA5252] hover:to-[#DD2476]"
-              href="https://www.linkedin.com/in/fattah-ranjbar-83b9b0134/"
+              href="https://www.linkedin.com/in/fanishah/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -37,11 +38,11 @@ export default function Sidebar(): JSX.Element {
             </a>
             <a
               className="ml-2 text-white bg-gray-800 pt-2 pb-2 px-2 rounded-lg bg-gradient-to-r hover:from-[#FA5252] hover:to-[#DD2476]"
-              href="https://discord.gg/d8CTn4bghf"
+              href="https://www.instagram.com/fattah.dev/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaDiscord size="1.8em" />
+              <AiFillInstagram size="1.8em" />
             </a>
             <a
               className="ml-2 text-white bg-gray-800 pt-2.5 pb-2 px-2.5 rounded-lg bg-gradient-to-r hover:from-[#FA5252] hover:to-[#DD2476]"
